@@ -56,7 +56,7 @@ function startGame() {
       } else {
         scoreR--;
         if (scoreR <= 0) {
-          boxes.innerHTML = " YOU LOSE";
+          boxes.innerHTML = " YOU LOST ";
         }
         score.innerText = "score " + scoreR;
       }
